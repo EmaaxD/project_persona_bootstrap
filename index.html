@@ -1,47 +1,989 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Proyecto2</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	
-	<!-- menu navegacion -->
-	<nav class="navbar navbar-inverse">
-		<div class="container">
-			<!-- logo del sitio o nombre del sitio -->
-			<div class="navbar-header">
-				<a href="#" class="navbar-brand">
-					Proyecto Personal
-				</a>
-				<!-- boton responsive -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			
-			<div class="collapse navbar-collapse" id="navi">
-				<!-- items de navegacion -->
-				<ul class="nav navbar-nav navbar-right text-sm-center">
-					<li><a href="">Inicio</a></li>
-					<li><a href="">Servicios</a></li>
-					<li><a href="">Proyectos</a></li>
-					<li><a href="">Equipo</a></li>
-					<li><a href="">Sobre Nosotros</a></li>
-					<li><a href="">Portada</a></li>
-					<li><a href="">Ubicacion</a></li>
-			</ul>
-			</div>
-		</div>
-	</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proyecto2</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- menu navegacion -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- logo del sitio o nombre del sitio -->
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand"> Proyecto Personal </a>
+          <!-- boton responsive -->
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navi"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
+        <div class="collapse navbar-collapse" id="navi">
+          <!-- items de navegacion -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#slider" class="smooth-scroll">Inicio</a></li>
+            <li><a href="#services" class="smooth-scroll">Servicios</a></li>
+            <li><a href="#works" class="smooth-scroll">Proyectos</a></li>
+            <li><a href="#teams" class="smooth-scroll">Equipo</a></li>
+            <li>
+              <a href="#testimonial" class="smooth-scroll">Sobre Nosotros</a>
+            </li>
+            <li><a href="#contact_area" class="smooth-scroll">Portada</a></li>
+            <li><a href="#map" class="location smooth-scroll">Ubicacion</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
+    <!-- sesion slider -->
+    <section class="slider text-center" id="slider">
+      <div class="slider-overlay">
+        <div class="slider-content">
+          <div class="icons">
+            <i class="fa fa-apple"></i>
+            <i class="fa fa-android"></i>
+            <i class="fa fa-windows"></i>
+          </div>
+          <br />
+          <div class="text"></div>
+          <br />
+          <div class="cta-div">
+            <a href="" class="btn1">contactanos</a>
+            <a href="" class="btn2">aprende hoy</a>
+          </div>
+          <br /><br />
+          <div class="social-networsk">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="" class="fa fa-windows"></a>
+            <a href="" class="fa fa-reddit"></a>
+            <a href="" class="fa fa-linkedin"></a>
+            <a href="" class="fa fa-cog"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesion servicio -->
+    <section class="service-area" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="section-title text-center">
+              <h2><b>Servicios</b></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br />Officiis cum, eius doloremque doloribus optio!
+              </p>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-wrap text-center">
+              <div class="service-icon">
+                <i class="fa fa-leaf"></i>
+              </div>
+              <h3>Desarrolladores</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                amet, cum nam labore quasi vel non deserunt temporibus nobis
+                culpa in dicta ab saepe sed cum architecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-wrap text-center">
+              <div class="service-icon">
+                <i class="fa fa-laptop"></i>
+              </div>
+              <h3>Soporte</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                amet, cum nam labore quasi vel non deserunt temporibus nobis
+                culpa in dicta ab saepe sed cum architecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-wrap text-center">
+              <div class="service-icon">
+                <i class="fa fa-heart"></i>
+              </div>
+              <h3>Marketing</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                amet, cum nam labore quasi vel non deserunt temporibus nobis
+                culpa in dicta ab saepe sed cum architecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-wrap text-center">
+              <div class="service-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <h3>Configuraciones</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                amet, cum nam labore quasi vel non deserunt temporibus nobis
+                culpa in dicta ab saepe sed cum architecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-wrap text-center">
+              <div class="service-icon">
+                <i class="fa fa-diamond"></i>
+              </div>
+              <h3>Diseño</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                amet, cum nam labore quasi vel non deserunt temporibus nobis
+                culpa in dicta ab saepe sed cum architecto.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="service-wrap text-center">
+              <div class="service-icon">
+                <i class="fa fa-cog"></i>
+              </div>
+              <h3>Diseño web</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                amet, cum nam labore quasi vel non deserunt temporibus nobis
+                culpa in dicta ab saepe sed cum architecto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- sesion trabajos -->
+    <section class="work" id="works">
+      <br /><br /><br /><br /><br />
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-3.jpeg" title="image description all"
+                ><img src="img/music-3.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-1.jpeg" title="image description all"
+                ><img src="img/music-1.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-2.jpeg" title="image description all"
+                ><img src="img/music-2.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-3.jpeg" title="image description all"
+                ><img src="img/music-3.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-4.jpeg" title="image description all"
+                ><img src="img/music-4.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-5.jpeg" title="image description all"
+                ><img src="img/music-5.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-1.jpeg" title="image description all"
+                ><img src="img/music-1.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="img-wrapper">
+              <a href="img/music-2.jpeg" title="image description all"
+                ><img src="img/music-2.jpeg" class="img-responsive"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesion equipo -->
+    <section class="teams" id="teams">
+      <div class="container text-center">
+        <h2 class="text-uppercase"><b>miembros</b></h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <br />Blanditiis id, maiores dignissimos quae facilis?
+        </p>
+      </div>
+      <br />
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="team-members" class="text-center owl-carousel owl-theme">
+              <!-- div para un miembre individual -->
+              <div class="team-member">
+                <img src="img/team-1.jpg" class="img-responsive" />
+                <div class="team-member-info">
+                  <h4 class="team-member-name">Harmoine</h4>
+                  <h4 class="team-member-designation text-uppercase">ceo</h4>
+                  <ul class="social-list">
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-google-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- div para un miembre individual -->
+              <div class="team-member">
+                <img src="img/team-2.jpg" class="img-responsive" />
+                <div class="team-member-info">
+                  <h4 class="team-member-name">Erika</h4>
+                  <h4 class="team-member-designation text-uppercase">ceo 2</h4>
+                  <ul class="social-list">
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-google-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- div para un miembre individual -->
+              <div class="team-member">
+                <img src="img/team-3.jpg" class="img-responsive" />
+                <div class="team-member-info">
+                  <h4 class="team-member-name">Koharu</h4>
+                  <h4 class="team-member-designation text-uppercase">
+                    developer
+                  </h4>
+                  <ul class="social-list">
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-google-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- div para un miembre individual -->
+              <div class="team-member">
+                <img src="img/team-4.jpg" class="img-responsive" />
+                <div class="team-member-info">
+                  <h4 class="team-member-name">Billie</h4>
+                  <h4 class="team-member-designation text-uppercase">
+                    manager
+                  </h4>
+                  <ul class="social-list">
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-google-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- div para un miembre individual -->
+              <div class="team-member">
+                <img src="img/team-5.jpg" class="img-responsive" />
+                <div class="team-member-info">
+                  <h4 class="team-member-name">Hany</h4>
+                  <h4 class="team-member-designation text-uppercase">
+                    designer
+                  </h4>
+                  <ul class="social-list">
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="" class="social-icon icon-gray"
+                        ><i class="fa fa-google-plus"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesion comentarios -->
+    <br /><br />
+    <section class="testimonials" id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <br /><br />
+            <h2 class="text-uppercase"><b>comentarios</b></h2>
+            <div class="sub-heading">
+              <div class="border-bottom"></div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <div class="row">
+          <div class="col-sm-12">
+            <div
+              id="carousel-testimonials"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <br />
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carousel-testimonials"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+                <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner">
+                <div class="item active text-center">
+                  <img src="img/client-1.jpg" class="center-block" />
+                  <h2>Harlim</h2>
+                  <h4>CEO</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Quo voluptas dolore soluta nemo ea voluptatibus maxime
+                    doloribus consectetur.
+                  </p>
+                </div>
+                <div class="item text-center">
+                  <img src="img/client-2.jpg" class="center-block" />
+                  <h2>Shame</h2>
+                  <h4 class="text-uppercase">deseinger</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Quo voluptas dolore soluta nemo ea voluptatibus maxime
+                    doloribus consectetur.
+                  </p>
+                </div>
+                <div class="item text-center">
+                  <img src="img/client-3.jpg" class="center-block" />
+                  <h2>Misteck</h2>
+                  <h4 class="text-capitalize">developer</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br />
+                    Quo voluptas dolore soluta nemo ea voluptatibus maxime
+                    doloribus consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesion faq -->
+    <br /><br />
+    <section class="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="text-uppercase"><b>preguntas frequentes</b></h2>
+            <div class="sub-heading">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br />Asperiores quasi libero quae blanditiis id!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br />
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="panel-group" id="accordian">
+              <!-- primer acordion -->
+              <div class="panel panel-default">
+                <div class="panel-heading" id="headingOne">
+                  <h4 class="panel-title">
+                    <a
+                      href="#collapseOne"
+                      class="text-capitalize"
+                      data-toggle="collapse"
+                      data-parent="#accordian"
+                      >tienes algunas preguntas ?</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="panel-collapse collapse in"
+                  aria-labelledby="headingOne"
+                >
+                  <div class="panel-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ullam praesentium nulla officia! Sint eligendi, libero
+                      minima, dolorum tempora repellendus mollitia, tenetur
+                      ipsum sed error, alias. Ratione facere dolor, minus est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- segundo acordeon -->
+              <div class="panel panel-default">
+                <div class="panel-heading" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a
+                      href="#collapseTwo"
+                      class="text-capitalize collapsed"
+                      data-toggle="collapse"
+                      data-parent="#accordian"
+                      >lo estás entendiendo exactamente ?</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="panel-collapse collapse"
+                  aria-labelledby="headingTwo"
+                >
+                  <div class="panel-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ullam praesentium nulla officia! Sint eligendi, libero
+                      minima, dolorum tempora repellendus mollitia, tenetur
+                      ipsum sed error, alias. Ratione facere dolor, minus est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- tercer acordeon -->
+              <div class="panel panel-default">
+                <div class="panel-heading" id="headingThree">
+                  <h4 class="panel-title">
+                    <a
+                      href="#collapseThree"
+                      class="text-capitalize collapsed"
+                      data-toggle="collapse"
+                      data-parent="#accordian"
+                      >se explica claramente ?</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="panel-collapse collapse"
+                  aria-labelledby="headingThree"
+                >
+                  <div class="panel-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ullam praesentium nulla officia! Sint eligendi, libero
+                      minima, dolorum tempora repellendus mollitia, tenetur
+                      ipsum sed error, alias. Ratione facere dolor, minus est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- cuarto acordeon -->
+              <div class="panel panel-default">
+                <div class="panel-heading" id="headingFour">
+                  <h4 class="panel-title">
+                    <a
+                      href="#collapseFour"
+                      class="text-capitalize collapsed"
+                      data-toggle="collapse"
+                      data-parent="#accordian"
+                      >merece algo ?</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="panel-collapse collapse"
+                  aria-labelledby="headingFour"
+                >
+                  <div class="panel-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ullam praesentium nulla officia! Sint eligendi, libero
+                      minima, dolorum tempora repellendus mollitia, tenetur
+                      ipsum sed error, alias. Ratione facere dolor, minus est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- quinto acordeon -->
+              <div class="panel panel-default">
+                <div class="panel-heading" id="headingFive">
+                  <h4 class="panel-title">
+                    <a
+                      href="#collapseFive"
+                      class="text-capitalize collapsed"
+                      data-toggle="collapse"
+                      data-parent="#accordian"
+                      >tienes miedo ?</a
+                    >
+                  </h4>
+                </div>
+                <div
+                  id="collapseFive"
+                  class="panel-collapse collapse"
+                  aria-labelledby="headingFive"
+                >
+                  <div class="panel-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ullam praesentium nulla officia! Sint eligendi, libero
+                      minima, dolorum tempora repellendus mollitia, tenetur
+                      ipsum sed error, alias. Ratione facere dolor, minus est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="freeimage">
+            <div class="col-md-2 col-md-offset-1">
+              <img src="img/3-front.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesion video -->
+    <section class="video-area" id="video">
+      <div id="color_overlay" class="color-overlay">
+        <div class="video-container">
+          <div id="player"></div>
+          <div class="video-mask"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="video-mask">
+                <a
+                  href="https://www.youtube.com/watch?v=95Rzsn-zjr0"
+                  class="play"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sesion blog -->
+    <section class="last-news-area" id="latest">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="section-title text-center">
+              <h2 class="text-uppercase"><b>entradas recientes</b></h2>
+              <div class="sub-heading">
+                <p>
+                  Lorem ipsum dolor sit amet onsectetur adipisicing,
+                  <br />consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+
+        <div class="row">
+          <div class="news-active">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="latest-news-wrap">
+                <div class="news-img">
+                  <img src="img/1.jpg" class="img-responsive" />
+                  <div class="deat">
+                    <span>31</span>
+                    <span>Dec</span>
+                  </div>
+                </div>
+                <div class="news-content">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+                  <i class="fa fa-whatsapp"></i>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ullam blanditiis laudantium quidem molestias nemo et,
+                    aperiam unde placeat quasi omnis sed perspiciatis iure
+                    tempora accusantium veritatis voluptatum harum minima
+                    reiciendis.
+                  </p>
+                  <br />
+
+                  <a href="#">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="latest-news-wrap">
+                <div class="news-img">
+                  <img src="img/2.jpg" class="img-responsive" />
+                  <div class="deat">
+                    <span>31</span>
+                    <span>Dec</span>
+                  </div>
+                </div>
+                <div class="news-content">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+                  <i class="fa fa-whatsapp"></i>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ullam blanditiis laudantium quidem molestias nemo et,
+                    aperiam unde placeat quasi omnis sed perspiciatis iure
+                    tempora accusantium veritatis voluptatum harum minima
+                    reiciendis.
+                  </p>
+                  <br />
+
+                  <a href="#">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="latest-news-wrap">
+                <div class="news-img">
+                  <img src="img/3.jpg" class="img-responsive" />
+                  <div class="deat">
+                    <span>31</span>
+                    <span>Dec</span>
+                  </div>
+                </div>
+                <div class="news-content">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+                  <i class="fa fa-whatsapp"></i>
+
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ullam blanditiis laudantium quidem molestias nemo et,
+                    aperiam unde placeat quasi omnis sed perspiciatis iure
+                    tempora accusantium veritatis voluptatum harum minima
+                    reiciendis.
+                  </p>
+                  <br />
+
+                  <a href="#">Ver mas...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- markup start -->
+    <section class="stat" id="stats">
+      <div class="content-box">
+        <br /><br />
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="stat-items">
+                <i class="fa fa-tv"></i>
+                <h2>
+                  <span class="counter text-center">3200</span>
+                  <i class="fa fa-plus"></i>
+                </h2>
+                <p class="text-uppercase">visitas</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-items">
+                <i class="fa fa-android"></i>
+                <h2>
+                  <span class="counter text-center">3200</span>
+                  <i class="fa fa-plus"></i>
+                </h2>
+                <p class="text-uppercase">android usuarios</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-items">
+                <i class="fa fa-apple"></i>
+                <h2>
+                  <span class="counter text-center">3200</span>
+                  <i class="fa fa-plus"></i>
+                </h2>
+                <p class="text-uppercase">internacional</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stat-items">
+                <i class="fa fa-windows"></i>
+                <h2>
+                  <span class="counter text-center">3200</span>
+                  <i class="fa fa-plus"></i>
+                </h2>
+                <p class="text-uppercase">soporte windows</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-area" id="contact_area">
+      <div class="container-fluid">
+        <!-- title -->
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="section-heading">
+              <h2 class="section-title text-uppercase"><b>contactanos</b></h2>
+              <div class="border-bottom-now"></div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+
+        <!-- content -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <form action="#" id="contactForm" class="contact-form">
+              <div class="row">
+                <!-- inputs -->
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder="Nombre"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="col-md-12">
+                  <br />
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    class="form-control"
+                    placeholder="Tema"
+                    required
+                  />
+                </div>
+                <div class="col-md-12">
+                  <br />
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Mensaje"
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- btns -->
+                <div class="col-md-12 text-center">
+                  <br />
+                  <button class="btn" type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="contact-infos">
+            <div class="col-md-4 text-center">
+              <div class="contact-item">
+                <span class="contact-icon"
+                  ><i class="fa fa-map-marker"></i
+                ></span>
+                <p>
+                  Lorem ipsum dolor sit <br />
+                  consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fa fa-envelope"></i></span>
+                <p>
+                  Lorem ipsum dolor sit <br />
+                  consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fa fa-phone"></i></span>
+                <p>
+                  Lorem ipsum dolor sit <br />
+                  consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="maps" id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29071.245752561616!2d-65.14087465211963!3d-24.384582993937165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bacdad1fd15ef%3A0x13d3c0d6ca0268ad!2sPerico%2C%20Jujuy!5e0!3m2!1ses!2sar!4v1580002006854!5m2!1ses!2sar"
+        width="100%"
+        height="450"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+      ></iframe>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="social-icon">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-youtube-square"></i></a>
+            </div>
+            <br />
+            <div class="copyright">
+              <p class="footerlogo">&copy; Proyecto Personal</p>
+              <div class="bordernow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script> -->
+    <script src="./js/jquery.smooth-scroll.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
